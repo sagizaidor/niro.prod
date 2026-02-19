@@ -1,12 +1,13 @@
 ---
 const whatsappLink = "https://wa.me/9720525903332?text=היי%20ניר%2C%20אשמח%20לשמוע%20על%20שיעורי%20הפקה%20מוזיקלית";
+const base = import.meta.env.BASE_URL;
 ---
 
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
   <!-- Background Image -->
   <div class="absolute inset-0 z-0">
     <img
-      src="/images/studio-setup.jpg"
+      src={`${base}images/studio-setup.jpg`}
       alt="סטודיו להפקה מוזיקלית"
       class="w-full h-full object-cover"
       loading="eager"
